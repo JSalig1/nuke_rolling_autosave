@@ -1,4 +1,4 @@
-### Nuke Rolling Auto Save
+## Nuke Rolling Auto Save
 
 Make your copy of Nuke keep the latest 15 autosaves similar to After Effects.
 Download the script and save it in your local Nuke scripts folder.
@@ -7,7 +7,7 @@ In your init.py file add:
 
     import nukescripts.rollingAutoSave15
 
-## Saving Auto Saves Locally
+#### Saving Auto Saves Locally
 
 Some facilities prefer not to have project files and auto saves on a SAN.  You
 can change your auto save preference to keep your auto save files locally away
@@ -24,7 +24,7 @@ Replace this text with the following:
 This will point your autosaves to the default NUKE_TEMP_DIRECTORY on your local
 station.
 
-## Specifying a Custom Local Auto Save Directory (Windows7)
+#### Specifying a Custom Local Auto Save Directory (Windows7)
 
 You can specify you own custom NUKE_TEMP_DIRECTORY location by changing your
 local machines environment variable. On Windows 7 go to Control Panel and select
